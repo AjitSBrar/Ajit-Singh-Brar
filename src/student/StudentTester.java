@@ -16,8 +16,10 @@ public class StudentTester {
         
         Student s1 = new Student();
         s1.setName("Tajinder");
-        Student s2 = new Student("Arprit");
-        Student s3 = new Student("Ajit");
+        s1.setId(123);
+        
+        Student s2 = new Student("Arprit",234);
+        Student s3 = new Student("Ajit",345);
         s1.setName("Tajinder");
         System.out.println(s1.getName());
         /*Student obj = new Student("Hello");//object created
@@ -46,7 +48,7 @@ public class StudentTester {
         
         for(int i=0;i < list.length; i++)
         {
-            System.out.println(list[i].getName());
+            System.out.println(list[i].getName() + list[i].getId());
             
         }
         

@@ -11,7 +11,7 @@ package student;
  */
 public class Student {
 
-    private String name;
+    private String name; private int id;
 
     /**
      * @return the name
@@ -19,10 +19,12 @@ public class Student {
     public Student()
     {
         this.name=null;
+        this.id = 0;
     }
-    public Student(String st)
+    public Student(String st,int s)
     {
         this.name=st;
+        this.id = s;
     }
     public String getName() {
         return name;
@@ -34,6 +36,14 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+    public int getId()
+    {
+        return id;
+    }
+    public void setId(int i)
+    {
+            this.id = i;    
+            }
     /**
      * @param args the command line arguments
      */
