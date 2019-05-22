@@ -33,7 +33,7 @@ public class StudentTester {
         System.out.println(obj1.getName());
         
         Student obj2[] = new Student[2];
-        
+         
         obj2[0]=obj;
         obj2[1]=obj1;
         **/
@@ -41,7 +41,7 @@ public class StudentTester {
         {
             System.out.println(obj2[i].getName());
         }**/
-
+ 
          Student[] list = new Student[3];
          list[0]=s1;
          list[1]=s2;
