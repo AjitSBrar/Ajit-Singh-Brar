@@ -52,6 +52,7 @@ public class StudentTester {
             System.out.println(list[i].getName() + list[i].getId());
             
         }
+      System.out.println("Remote repositry");
         
     }
 }
