@@ -12,7 +12,7 @@ package student;
  */
 public class Student {
 
-    private String name; private int id;
+    private String name; private int id; private int maxcourse;
 
     /**
      * @return the name
@@ -45,6 +45,20 @@ public class Student {
     {
             this.id = i;    
             }
+
+    /**
+     * @return the maxcourse
+     */
+    public int getMaxcourse() {
+        return maxcourse;
+    }
+
+    /**
+     * @param maxcourse the maxcourse to set
+     */
+    public void setMaxcourse(int maxcourse) {
+        this.maxcourse = maxcourse;
+    }
     /**
      * @param args the command line arguments
      */
